@@ -1,0 +1,40 @@
+Cmd Commands
+
+Make zip file                                      : sudo zip -r wordpress.zip ./
+
+Make zip file                                      : sudo zip -r maap_25_11.zip ./server  */ folder name server */
+
+In to folder                                       : cd folder name
+
+Exit to the path                                   : $ exit
+ 
+Delete file                                        : sudo rm test_4.zip 
+
+Delete Folder                                      : sudo rm -r dist
+
+Delete All file                                    : In to the file directory => rm ./*
+
+Connet the project using pem file                  : sudo ssh -i mnky.pem ubuntu@3.142.18.201
+
+localhost run in pc                                : sudo /opt/lampp/manager-linux-x64.run
+
+permissions                                        : sudo chmod -R 777 react  / *  react is folder name * / 
+
+Apache Restart                                     : sudo service apache2 restart
+
+Maap Folder In To the folder                       : cd /var/app
+
+Make Folder                                        : mkdir foldername
+
+Upload Zip File                                    : sudo scp -i '/home/nisarg/PPK/PPK/review-test/reviewtest.pem' 'dist.zip' ubuntu@18.190.64.122:/var/www/html/review/   */ before zip file connection off server , after zip file where we upload the zip file  */
+
+UnZip File                                         : unzip oneclick_react_build.zip
+
+List All Folder and file                           : ls
+
+Permission on pem file                             : chmod 400 reviewapp.pem
+
+Download the folder server path to local           : scp -r user@host:/path/to/folder/ local-copy-of-folder
+
+Pem and Ppk file generate                          : https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04 / * only step 1 
+    
