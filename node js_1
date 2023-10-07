@@ -1,0 +1,41 @@
+#Install the latest version of node.js.
+$ nvm install node
+
+Install a specific version of node.js:
+$ nvm install 16.14.2
+
+Verify Node.js Installation and check version
+$ node --version
+
+check npm version
+npm --version
+
+Kill the port if already used port error 
+npx kill-port 3000
+
+Create new node.js project 
+
+step 1 create new folder for new project 
+
+step 2 add new file in folder index.js 
+
+step 3 install express module 
+
+step 4 run project node index.js
+
+db.Shop.hasMany(db.Workers, {
+  onDelete: "cascade", 
+  foreignKey: "shop_id"
+});
+
+hasMany Shop table primary key is shop_id
+	Workeras table ma shop_id foreignKey thay	
+	
+	
+OneClick Pem file  =>	sudo ssh -i '/home/web/Downloads/oneclick.pem' ubuntu@3.134.254.176
+
+Install New package => sudo docker exec  -it 5e6ca9862b7b /bin/sh  
+
+Log => sudo docker logs ba197425e2a6 --follow
+
+Goto into the : sudo mysql -u root -p

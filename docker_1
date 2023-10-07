@@ -1,0 +1,32 @@
+sudo ssh -i '/home/web/Downloads/white.pem' ubuntu@3.142.18.201
+
+See all running container in Docker =>  sudo docker ps
+
+Start a Docker container   => sudo docker start container-name
+
+Stop the docker container  => sudo docker stop container name
+
+Identify the status of a Docker container =>  docker ps –a
+
+Cloth na logs
+
+sudo docker logs ca9533037cde --follow
+
+
+Cwic container new package install
+
+sudo docker exec  -it 3b7ccfe6240f /bin/sh
+
+upload or create the composer in docker : sudo docker-compose up -d 1clickapp-admin 
+
+
+Delete the images into the docker : sudo docker rmi 92779cb385ec
+
+See All Images : sudo docker images
+
+
+Docker restart : sudo service docker restart
+
+Remove all unused containers, networks, images :  sudo docker system prune
+
+Stops containers and removes containers : sudo docker-compose down

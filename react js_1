@@ -1,0 +1,21 @@
+Install react js project :  npx create-react-app my-react-app  (React application named my-react-app) 
+
+Run project : Go in project folder and then :npm start
+
+Props pass only to the perents and props get in to the child 
+
+props value can be change but state value can not be change 
+
+useEffect : effects happen “after render”
+
+<Navigate> Tag used to changes the current location when it is rendered.
+
+<Outlet> Tag used to If the parent route matched exactly, then go to the child index 
+
+Props provide a way to pass data from one component to another component.
+
+Context : =>  Provides a way to pass data through the component tree without having to pass props down manually at every level.
+
+https://www.programiz.com/javascript/online-compiler/
+
+Clear caches : sync; echo 1 | sudo tee /proc/sys/vm/drop_caches
