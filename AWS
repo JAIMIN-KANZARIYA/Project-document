@@ -1,0 +1,32 @@
+
+												AWS Instance			
+
+Open the AWS console page
+
+After then Search for the EC2 and open it 
+
+Click on launch Instance (create New EC2 Instance)
+
+Launch an instance  1. Enter the Project Name into the Name field 
+
+		     2. Choose an Amazon Machine Image (AMI) =>  Select ubuntu operating system as per your requirement. (Ubuntu Server 20.04 LTS)	 
+
+		     3. After selecting the type of server => select T2 micro which contains 1 core CPU and 1 GB RAM it is Free server	
+		     
+		     4. Create Key pair enter the pair name (same us your project name), key pair type is defualt selected. , 
+		     
+		     private key file format id .pem file and  create the  key pair and download the file . 
+		     
+		     5. File save in your safe location in your PC.
+		     
+Security group rule type select the All traffic in to the select dropdown 
+
+Configure storage 10 GIb and create the launch Instance.
+
+
+Connect to instance button click after the select SSH client and copy peste to comment into the your pem file.
+
+
+Who to set IP in to the Elastic IP adrress
+
+PHP Hint => https://www.youtube.com/watch?v=9mig_v1fElo
