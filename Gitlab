@@ -1,0 +1,25 @@
+Project clone into the gitlab             :  git clone https://gitlab.com/jayeshmsp/rajhans-enterprise.git
+
+Initialize a New Repository               :  git init
+
+Add Changes to the Staging Area           :  git add .
+
+Commit Changes                            :  git commit -m "Your commit message"
+
+Push Changes to a Remote Repository       :  git push origin staging
+
+Pull Changes from a Remote Repository     :  git pull origin staging
+
+Create a New Branch                       :  git branch <branch_name>
+
+Switch to a Branch                        :  git checkout <branch_name>
+
+List Branches                             :  git branch
+
+Delete a Branch                           :  git branch -d <branch_name>
+
+View the Status of Changed Files          :  git status
+
+View the Commit History                   :  git log
+
+
